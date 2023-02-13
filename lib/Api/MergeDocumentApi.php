@@ -286,12 +286,12 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -606,52 +606,52 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // form params
         if ($input_file3 !== null) {
             $multipart = true;
-            $formParams['inputFile3'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file3), 'rb');
+            $formParams['inputFile3'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file3), 'rb');
         }
         // form params
         if ($input_file4 !== null) {
             $multipart = true;
-            $formParams['inputFile4'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file4), 'rb');
+            $formParams['inputFile4'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file4), 'rb');
         }
         // form params
         if ($input_file5 !== null) {
             $multipart = true;
-            $formParams['inputFile5'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file5), 'rb');
+            $formParams['inputFile5'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file5), 'rb');
         }
         // form params
         if ($input_file6 !== null) {
             $multipart = true;
-            $formParams['inputFile6'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file6), 'rb');
+            $formParams['inputFile6'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file6), 'rb');
         }
         // form params
         if ($input_file7 !== null) {
             $multipart = true;
-            $formParams['inputFile7'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file7), 'rb');
+            $formParams['inputFile7'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file7), 'rb');
         }
         // form params
         if ($input_file8 !== null) {
             $multipart = true;
-            $formParams['inputFile8'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file8), 'rb');
+            $formParams['inputFile8'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file8), 'rb');
         }
         // form params
         if ($input_file9 !== null) {
             $multipart = true;
-            $formParams['inputFile9'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file9), 'rb');
+            $formParams['inputFile9'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file9), 'rb');
         }
         // form params
         if ($input_file10 !== null) {
             $multipart = true;
-            $formParams['inputFile10'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file10), 'rb');
+            $formParams['inputFile10'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file10), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -926,12 +926,12 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -1246,52 +1246,52 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // form params
         if ($input_file3 !== null) {
             $multipart = true;
-            $formParams['inputFile3'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file3), 'rb');
+            $formParams['inputFile3'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file3), 'rb');
         }
         // form params
         if ($input_file4 !== null) {
             $multipart = true;
-            $formParams['inputFile4'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file4), 'rb');
+            $formParams['inputFile4'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file4), 'rb');
         }
         // form params
         if ($input_file5 !== null) {
             $multipart = true;
-            $formParams['inputFile5'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file5), 'rb');
+            $formParams['inputFile5'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file5), 'rb');
         }
         // form params
         if ($input_file6 !== null) {
             $multipart = true;
-            $formParams['inputFile6'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file6), 'rb');
+            $formParams['inputFile6'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file6), 'rb');
         }
         // form params
         if ($input_file7 !== null) {
             $multipart = true;
-            $formParams['inputFile7'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file7), 'rb');
+            $formParams['inputFile7'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file7), 'rb');
         }
         // form params
         if ($input_file8 !== null) {
             $multipart = true;
-            $formParams['inputFile8'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file8), 'rb');
+            $formParams['inputFile8'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file8), 'rb');
         }
         // form params
         if ($input_file9 !== null) {
             $multipart = true;
-            $formParams['inputFile9'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file9), 'rb');
+            $formParams['inputFile9'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file9), 'rb');
         }
         // form params
         if ($input_file10 !== null) {
             $multipart = true;
-            $formParams['inputFile10'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file10), 'rb');
+            $formParams['inputFile10'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file10), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -1566,12 +1566,12 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -1886,52 +1886,52 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // form params
         if ($input_file3 !== null) {
             $multipart = true;
-            $formParams['inputFile3'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file3), 'rb');
+            $formParams['inputFile3'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file3), 'rb');
         }
         // form params
         if ($input_file4 !== null) {
             $multipart = true;
-            $formParams['inputFile4'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file4), 'rb');
+            $formParams['inputFile4'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file4), 'rb');
         }
         // form params
         if ($input_file5 !== null) {
             $multipart = true;
-            $formParams['inputFile5'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file5), 'rb');
+            $formParams['inputFile5'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file5), 'rb');
         }
         // form params
         if ($input_file6 !== null) {
             $multipart = true;
-            $formParams['inputFile6'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file6), 'rb');
+            $formParams['inputFile6'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file6), 'rb');
         }
         // form params
         if ($input_file7 !== null) {
             $multipart = true;
-            $formParams['inputFile7'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file7), 'rb');
+            $formParams['inputFile7'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file7), 'rb');
         }
         // form params
         if ($input_file8 !== null) {
             $multipart = true;
-            $formParams['inputFile8'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file8), 'rb');
+            $formParams['inputFile8'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file8), 'rb');
         }
         // form params
         if ($input_file9 !== null) {
             $multipart = true;
-            $formParams['inputFile9'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file9), 'rb');
+            $formParams['inputFile9'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file9), 'rb');
         }
         // form params
         if ($input_file10 !== null) {
             $multipart = true;
-            $formParams['inputFile10'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file10), 'rb');
+            $formParams['inputFile10'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file10), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -2206,12 +2206,12 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -2526,52 +2526,52 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // form params
         if ($input_file3 !== null) {
             $multipart = true;
-            $formParams['inputFile3'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file3), 'rb');
+            $formParams['inputFile3'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file3), 'rb');
         }
         // form params
         if ($input_file4 !== null) {
             $multipart = true;
-            $formParams['inputFile4'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file4), 'rb');
+            $formParams['inputFile4'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file4), 'rb');
         }
         // form params
         if ($input_file5 !== null) {
             $multipart = true;
-            $formParams['inputFile5'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file5), 'rb');
+            $formParams['inputFile5'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file5), 'rb');
         }
         // form params
         if ($input_file6 !== null) {
             $multipart = true;
-            $formParams['inputFile6'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file6), 'rb');
+            $formParams['inputFile6'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file6), 'rb');
         }
         // form params
         if ($input_file7 !== null) {
             $multipart = true;
-            $formParams['inputFile7'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file7), 'rb');
+            $formParams['inputFile7'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file7), 'rb');
         }
         // form params
         if ($input_file8 !== null) {
             $multipart = true;
-            $formParams['inputFile8'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file8), 'rb');
+            $formParams['inputFile8'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file8), 'rb');
         }
         // form params
         if ($input_file9 !== null) {
             $multipart = true;
-            $formParams['inputFile9'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file9), 'rb');
+            $formParams['inputFile9'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file9), 'rb');
         }
         // form params
         if ($input_file10 !== null) {
             $multipart = true;
-            $formParams['inputFile10'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file10), 'rb');
+            $formParams['inputFile10'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file10), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -2846,12 +2846,12 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -3166,52 +3166,52 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // form params
         if ($input_file3 !== null) {
             $multipart = true;
-            $formParams['inputFile3'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file3), 'rb');
+            $formParams['inputFile3'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file3), 'rb');
         }
         // form params
         if ($input_file4 !== null) {
             $multipart = true;
-            $formParams['inputFile4'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file4), 'rb');
+            $formParams['inputFile4'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file4), 'rb');
         }
         // form params
         if ($input_file5 !== null) {
             $multipart = true;
-            $formParams['inputFile5'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file5), 'rb');
+            $formParams['inputFile5'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file5), 'rb');
         }
         // form params
         if ($input_file6 !== null) {
             $multipart = true;
-            $formParams['inputFile6'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file6), 'rb');
+            $formParams['inputFile6'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file6), 'rb');
         }
         // form params
         if ($input_file7 !== null) {
             $multipart = true;
-            $formParams['inputFile7'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file7), 'rb');
+            $formParams['inputFile7'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file7), 'rb');
         }
         // form params
         if ($input_file8 !== null) {
             $multipart = true;
-            $formParams['inputFile8'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file8), 'rb');
+            $formParams['inputFile8'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file8), 'rb');
         }
         // form params
         if ($input_file9 !== null) {
             $multipart = true;
-            $formParams['inputFile9'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file9), 'rb');
+            $formParams['inputFile9'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file9), 'rb');
         }
         // form params
         if ($input_file10 !== null) {
             $multipart = true;
-            $formParams['inputFile10'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file10), 'rb');
+            $formParams['inputFile10'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file10), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -3486,12 +3486,12 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -3806,52 +3806,52 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // form params
         if ($input_file3 !== null) {
             $multipart = true;
-            $formParams['inputFile3'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file3), 'rb');
+            $formParams['inputFile3'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file3), 'rb');
         }
         // form params
         if ($input_file4 !== null) {
             $multipart = true;
-            $formParams['inputFile4'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file4), 'rb');
+            $formParams['inputFile4'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file4), 'rb');
         }
         // form params
         if ($input_file5 !== null) {
             $multipart = true;
-            $formParams['inputFile5'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file5), 'rb');
+            $formParams['inputFile5'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file5), 'rb');
         }
         // form params
         if ($input_file6 !== null) {
             $multipart = true;
-            $formParams['inputFile6'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file6), 'rb');
+            $formParams['inputFile6'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file6), 'rb');
         }
         // form params
         if ($input_file7 !== null) {
             $multipart = true;
-            $formParams['inputFile7'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file7), 'rb');
+            $formParams['inputFile7'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file7), 'rb');
         }
         // form params
         if ($input_file8 !== null) {
             $multipart = true;
-            $formParams['inputFile8'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file8), 'rb');
+            $formParams['inputFile8'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file8), 'rb');
         }
         // form params
         if ($input_file9 !== null) {
             $multipart = true;
-            $formParams['inputFile9'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file9), 'rb');
+            $formParams['inputFile9'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file9), 'rb');
         }
         // form params
         if ($input_file10 !== null) {
             $multipart = true;
-            $formParams['inputFile10'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file10), 'rb');
+            $formParams['inputFile10'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file10), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -4126,12 +4126,12 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // body params
         $_tempBody = null;
@@ -4446,52 +4446,52 @@ class MergeDocumentApi
         // form params
         if ($input_file1 !== null) {
             $multipart = true;
-            $formParams['inputFile1'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file1), 'rb');
+            $formParams['inputFile1'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file1), 'rb');
         }
         // form params
         if ($input_file2 !== null) {
             $multipart = true;
-            $formParams['inputFile2'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file2), 'rb');
+            $formParams['inputFile2'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file2), 'rb');
         }
         // form params
         if ($input_file3 !== null) {
             $multipart = true;
-            $formParams['inputFile3'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file3), 'rb');
+            $formParams['inputFile3'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file3), 'rb');
         }
         // form params
         if ($input_file4 !== null) {
             $multipart = true;
-            $formParams['inputFile4'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file4), 'rb');
+            $formParams['inputFile4'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file4), 'rb');
         }
         // form params
         if ($input_file5 !== null) {
             $multipart = true;
-            $formParams['inputFile5'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file5), 'rb');
+            $formParams['inputFile5'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file5), 'rb');
         }
         // form params
         if ($input_file6 !== null) {
             $multipart = true;
-            $formParams['inputFile6'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file6), 'rb');
+            $formParams['inputFile6'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file6), 'rb');
         }
         // form params
         if ($input_file7 !== null) {
             $multipart = true;
-            $formParams['inputFile7'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file7), 'rb');
+            $formParams['inputFile7'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file7), 'rb');
         }
         // form params
         if ($input_file8 !== null) {
             $multipart = true;
-            $formParams['inputFile8'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file8), 'rb');
+            $formParams['inputFile8'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file8), 'rb');
         }
         // form params
         if ($input_file9 !== null) {
             $multipart = true;
-            $formParams['inputFile9'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file9), 'rb');
+            $formParams['inputFile9'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file9), 'rb');
         }
         // form params
         if ($input_file10 !== null) {
             $multipart = true;
-            $formParams['inputFile10'] = \GuzzleHttp\Psr7\try_fopen(ObjectSerializer::toFormValue($input_file10), 'rb');
+            $formParams['inputFile10'] = \GuzzleHttp\Psr7\Utils::tryFopen(ObjectSerializer::toFormValue($input_file10), 'rb');
         }
         // body params
         $_tempBody = null;
